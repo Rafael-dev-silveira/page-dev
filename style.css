@@ -1,0 +1,63 @@
+body{
+    background-image: url(./src/imagens/bg-desktop.svg);  
+    background-repeat: no-repeat;
+    font-family: "Open Sans", sans-serif;
+    background-color: hsl(257, 40%, 49%);
+}
+
+
+.cabecalho img{
+    margin: 50px;
+    width: 200px;
+}
+
+.imagem-central{
+    display: flex;    
+    margin: 50px;
+}
+
+.informacao{
+    padding: 50px;
+    font-size: 22px;
+    margin-right: 400px;
+    color: white;
+    
+}
+
+.texto-principal{
+    margin-bottom: 30px;
+}
+
+.botao{
+    margin-top: 20px;
+    width: 190px;
+    padding: 20px;
+    border-radius: 30px;
+    color: hsl(257, 40%, 49%);
+    font-size: 17px;
+    font-size: large;
+    border: none;
+    cursor: pointer;   
+}
+
+.botao:hover{
+    background-color: rgba(192, 35, 179, 0.932);
+}
+
+.icones{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin-right: 500px;
+    gap: 30px;
+    font-size: 25px;
+    cursor: pointer; 
+}
+
+.icones a{
+    color: white;
+}
+
+.icones a:hover{
+    color: rgba(192, 35, 179, 0.932);
+}
